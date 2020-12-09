@@ -1,0 +1,16 @@
+PODS:
+  - ZMFeatures (0.1.0)
+
+DEPENDENCIES:
+  - ZMFeatures (from `../`)
+
+EXTERNAL SOURCES:
+  ZMFeatures:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ZMFeatures: 40ef4dc27c9ad29706d98b7e0c50ea63e8a5a6bf
+
+PODFILE CHECKSUM: c0bc9d98a41becbedc0370b2e568f4ee3f8071cd
+
+COCOAPODS: 1.8.4

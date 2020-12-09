@@ -1,19 +1,12 @@
-//
-//  ViewController.swift
-//  ZMFeatures
-//
-//  Created by Zaven on 12/09/2020.
-//  Copyright (c) 2020 Zaven. All rights reserved.
-//
-
+import ZMFeatures
 import UIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+      print("Is it valid Email: \(Validator.isValidEmail("zavenmadoyan@gmail.com"))")
+  }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
